@@ -5,13 +5,283 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Just-Travel Agency</title>
+    <script src="https://kit.fontawesome.com/a7b9865d7a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1 class="text-warning">Just Travel Agency</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg custom-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand colorclass font" href="#"><i class="fa-solid fa-plane-departure"></i>
+                    Just-Travel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active colorclass fonthome" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorclass fonthome" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorclass fonthome" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link colorclass fonthome" href="#">Contact</a>
+                        </li>
 
+                    </ul>
+                    <form class="d-flex colorclass" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success colorclass fonthome" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAATGQ70FjbXCegdSrz9MJGQ9F7MDreRj15Q&s"
+                            class="d-block w-100" alt="..." height="500px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.freepik.com/premium-photo/image-travel-agency-post_1021867-38627.jpg"
+                            class="d-block w-100" alt="..." height="500px">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.freepik.com/premium-photo/travel-world-with-airplane_76599-13824.jpg"
+                            class="d-block w-100" alt="..." height="500px">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- about section  -->
+
+        <section class="container">
+            <div class="row featurette pt-5 container custom-bg">
+                <div class="col-md-7">
+                    <h1 class="featurette-heading fw-normal lh-1 text-center aboutfont"> About</h1>
+                    <p class="lead colorclass fonthome">Just-Travel Agency is an innovative startup company dedicated to
+                        transforming the travel experience for its clients by offering comprehensive, customized travel
+                        solutions. In an increasingly connected world, travel is more than just a journey from one place
+                        to another; it is about experiencing new cultures, building memories, and personal growth.
+                        Just-Travel Agency aims to be the go-to partner for individuals and organizations seeking
+                        reliable, enjoyable, and tailored travel services.</p>
+
+                    <h2 class="featurette-heading fw-normal lh-1 text-center aboutfont">Vision and Mission</h2>
+                    <p class="lead colorclass fonthome">Our vision is to become a leading travel agency known for
+                        exceptional service and innovative travel solutions. We strive to simplify the planning and
+                        booking process, making travel accessible and enjoyable for everyone. Our mission is to provide
+                        personalized travel experiences that cater to the unique preferences and needs of our clients,
+                        whether they are solo travelers, families, or corporate groups.</p>
+                </div>
+                <div class="col-md-5">
+
+                    <img class="me-5"
+                        src="https://img.freepik.com/free-psd/travel-agency-social-media-post-template_505751-2895.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1727049600&semt=ais_hybrid"
+                        alt="" width="300px">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300"
+                        height="100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section  -->
+
+        <section>
+            <div class="container py-3">
+                <header>
+
+
+                    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                        <h1 class="display-4 fw-normal text-body-emphasis font services">Services</h1>
+                        <p class="fs-5 text-body-secondary">Just-Travel Agency offers a diverse range of services
+                            designed to cover every aspect of travel planning. These include:</p>
+                    </div>
+                </header>
+
+                <main>
+                    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                <div class="card-header py-3 text-bg-primary border-primary">
+                                    <h5 class="my-0 fw-normal"><b>Visa and Travel Insurance Assistance</b></h5>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">$250<small
+                                            class="text-body-secondary fw-light">/visa</small></h1>
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li>1 user</li>
+                                        <li>Visa Services</li>
+                                        <li>Passport Services </li>
+                                        <li>Travel Insurance</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary">Book Me</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                <div class="card-header py-3 text-bg-primary border-primary">
+                                    <h5 class="my-0 fw-normal"><b>Flight and Accommodation Booking</b></h5>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">$1500<small
+                                            class="text-body-secondary fw-light">/person</small></h1>
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li>1 Adult</li>
+                                        <li>Five Star Hotel</li>
+                                        <li>Premium Economy Ticket</li>
+                                        <li>Feeding for 2 Days</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg primary">Book Me</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                                <div class="card-header py-3 text-bg-primary border-primary">
+                                    <h5 class="my-0 fw-normal"><b>Group Tours and Destination Events</b></h5>
+                                </div>
+                                <div class="card-body">
+                                    <h1 class="card-title pricing-card-title">$5000<small
+                                            class="text-body-secondary fw-light"></small></h1>
+                                    <ul class="list-unstyled mt-3 mb-4">
+                                        <li>5 Person</li>
+                                        <li>Four Star Hotel</li>
+                                        <li>Feeding For 3 Days</li>
+                                        <li>Economy Ticket</li>
+                                    </ul>
+                                    <button type="button" class="w-100 btn btn-lg btn-primary">Book Me</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </main>
+
+        </section>
+
+
+        <section class="container">
+
+            <form>
+                <div class="topcontact col-12 col-sm-8 col-md-8">
+                    <h1 class="cway">Contact Us</h1>
+                    <p class="pway">For more details:</p>
+
+                </div>
+
+
+
+
+
+
+                <div class="contactmain d-flex justify-content-evenly mb-3">
+                    <div class="location d-flex align-items-center">
+                        <div class="logo">
+                            <i class="fa-solid fa-location-dot iconClass"></i>
+                        </div>
+                        <div class="address">
+                            <h3>Locate Us</h3>
+                            <p>10, Lekki Phase 1 off Admiralty</p>
+                        </div>
+                    </div>
+
+                    <div class="call d-flex align-items-center">
+                        <div class="logo1">
+                            <i class="fa-solid fa-phone iconClass"></i>
+                        </div>
+                        <div class="number">
+                            <h3>Give us a call</h3>
+                            <p>Office: +234 909 052 7183</p>
+                        </div>
+                    </div>
+
+                    <div class="email d-flex align-items-center">
+                        <div class="logo2">
+                            <i class="fa-regular fa-envelope iconClass"></i>
+                        </div>
+                        <div class="emailaddress">
+                            <h3>Get in Online</h3>
+                            <p>Contact:just_travel.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Full Name" aria-label="Full name">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                    </div>
+                    <div class="col-6 pt-3">
+                        <input type="text" class="form-control" placeholder="Subject" aria-label="Subject">
+                    </div>
+                </div>
+
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Message</label>
+                </div>
+
+                <div class="col-12 pt-5 ">
+                    <button type="submit" class="btn btn-danger signinbtn">Send Message</button>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2024 Just-Travel, Inc</p>
+
+        <a href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> -->
+        </ul>
+    </footer>
 
 
 

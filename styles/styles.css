@@ -1,0 +1,77 @@
+.custom-bg {
+    background-color: ghostwhite;
+}
+
+.footer-bg {
+    background-color: #081b29;
+}
+
+.colorclass {
+    color: black!important;
+}
+
+.font {
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.fonthome {
+    font-weight: 50;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutfont {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.services {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.topcontact {
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 100px;
+}
+
+.cway {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pway {
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.iconClass {
+    font-size: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.signinbtn {
+    margin-left: 50px;
+}
+/* .contactmain {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .servicecolor {
+    color: orangered;
+} */
+
+/* .aboutmargin {
+    margin: 0px 45px;
+} */
+
